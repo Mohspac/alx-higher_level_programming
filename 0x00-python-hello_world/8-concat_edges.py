@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-word = "Holberton"
-word_first_3 = word[0:3]
-word_last_2 = word[-2:]
-middle_word = word[1:-1]
-print("First 3 letters: {}".format(word_first_3))
-print("Last 2 letters: {}".format(word_last_2))
+str = "Python is an interpreted, interactive, object-oriented programming\
+ language that combines remarkable power with very clear syntax"
+str = str[39:66] + str[106:112] + str[:6]
+print(str)
