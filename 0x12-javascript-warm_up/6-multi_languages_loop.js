@@ -1,5 +1,6 @@
 #!/usr/bin/node
-const array = ['C is fun', 'Python is cool', 'Javascript is amazing'];
-for (let i = 0; i < array.length; i++) {
-  console.log(array[i]);
+const languages = ['C is fun', 'Python is cool', 'Javascript is amazing'];
+
+for (const language of languages) {
+  console.log(language);
 }
